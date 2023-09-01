@@ -25,4 +25,5 @@ for rodada in range (1, total_tentativas + 1):
         elif (menor):
             print("Você errou! O seu chute foi menor que o número secreto.")
 
+
 print("Fim do jogo")
