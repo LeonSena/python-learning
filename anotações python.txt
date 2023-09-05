@@ -1,0 +1,54 @@
+break pode ser usado para interromper laço no Python, tanto FOR quanto WHILE
+lembre sempre de indentar
+
+continue pode ser usado para sair da interação, sem sair do laço
+
+num código "tentativa {} de {}".format(3,10)
+aparece:
+'Tentativa 3 de 10' onde 3 é a primeira variável {} e 10 a segunda {}
+Codando 'Tentativa {1} de {0}".format(3,10) o resultado é:
+'Tentativa 10 de 3' pois ao colocar 0 e 1 dentro dos colchetes, estou 
+numerando a posição/ordem das variáveis.
+
+manipulando a exibição de zeros e números:
+é importante que o ponto ou vírgula esteja sempre no mesmo lugar
+em todas as situações.
+
+
+
+
+Formação de strings
+
+EM DINHEIRO
+
+POSICIONAR VÍRGULA, MOSTRANDO OU NÃO OS DÍGITOS ZERO
+VARIAÇÕES - O NÚMERO ENTRE : E . DEFINE QUANTAS CASAS ATÉ O 
+PONTO/VÍRGULA MAS SÓ SE TIVER UM NÚMERO JUNTO DO F TAMBÉM, MESMO QUE
+ZERO. O NÚMERO DEPOIS DO . DEFINE QUANTAS CASAS DECIMAIS
+ex: 
+"R$ {:f}".format(1.59)
+'R$ 1.590000' mostrou outros dígitos após o nove
+_
+"R$ {:.2f}".format(1.5)
+'R$ 1.50' adicionou o zero e escondeu os demais
+_
+"R$ {:.2f}".format(1234.5)
+'R$ 1234.50' adicionou somente o zero
+_
+"R$ {:7.2f}".format(1234.5)
+'R$ 1234.50' (considerou colocar o zero depois do dígito usando 7)
+_
+"R$ {:7.2f}"format.(4.5)
+'R$    4.50' espaços em branco (sem o zero antes do sete)
+_
+"R$ {:07.2f}".format(4.5)
+'R$ 0004.50' zeros antes do quatro (com zero antes do sete)
+
+EM DATA
+
+"Data {:2d} dois digitos / barra / {:2d}".format(9,4)
+a saída será: 'Data 9/4'
+"Data {:02d}/{:02d}/{:02d}".format(9,3,20)
+a saída será 'Data 09/03/20' 
+para quatro dígitos digite (9,3,2013) por ex e coloque {:04d}
+
