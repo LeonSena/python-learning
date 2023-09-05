@@ -15,8 +15,6 @@ manipulando a exibição de zeros e números:
 em todas as situações.
 
 
-
-
 Formação de strings
 
 EM DINHEIRO
@@ -26,7 +24,7 @@ VARIAÇÕES - O NÚMERO ENTRE : E . DEFINE QUANTAS CASAS ATÉ O
 PONTO/VÍRGULA MAS SÓ SE TIVER UM NÚMERO JUNTO DO F TAMBÉM, MESMO QUE
 ZERO. O NÚMERO DEPOIS DO . DEFINE QUANTAS CASAS DECIMAIS
 ex: 
-"R$ {:f}".format(1.59)
+#"R$ {:f}".format(1.59)#
 'R$ 1.590000' mostrou outros dígitos após o nove
 _
 "R$ {:.2f}".format(1.5)
