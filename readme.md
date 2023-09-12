@@ -1,1 +1,2 @@
-Arquivo para linkar o projeto de python com o gitghub
+Projeto de jogo de adivinhação em Python do curso Alura.
+Guessing game project in Python from the Alura course.
