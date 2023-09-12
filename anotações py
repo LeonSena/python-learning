@@ -15,6 +15,8 @@ manipulando a exibição de zeros e números:
 em todas as situações.
 
 
+
+
 Formação de strings
 
 EM DINHEIRO
@@ -24,7 +26,7 @@ VARIAÇÕES - O NÚMERO ENTRE : E . DEFINE QUANTAS CASAS ATÉ O
 PONTO/VÍRGULA MAS SÓ SE TIVER UM NÚMERO JUNTO DO F TAMBÉM, MESMO QUE
 ZERO. O NÚMERO DEPOIS DO . DEFINE QUANTAS CASAS DECIMAIS
 ex: 
-#"R$ {:f}".format(1.59)#
+"R$ {:f}".format(1.59)
 'R$ 1.590000' mostrou outros dígitos após o nove
 _
 "R$ {:.2f}".format(1.5)
@@ -50,4 +52,11 @@ a saída será: 'Data 9/4'
 a saída será 'Data 09/03/20' 
 para quatro dígitos digite (9,3,2013) por ex, e coloque {:04d} para
 os anos. 
+
+
+O operador / sempre traz um float, mesmo se não for necessário, por isso ele também é chamado de float division:
+
+O operador // também é chamado integer division e sempre devolve o valor inteiro (sem arredondar)
+
+
 
